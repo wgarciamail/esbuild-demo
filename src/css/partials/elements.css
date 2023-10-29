@@ -10,7 +10,8 @@ body {
   font-family: var(--font-body);
   color: var(--color-fore);
   background: var(--color-back) url(/images/web.png) repeat;
-  margin: 1em;
+  margin: 0em;
+  height: 98vh;  
 }
 
 /* nested elements with inline icon */
@@ -30,4 +31,15 @@ header {
   font-size: 5em;
   text-align: center;
   font-variant-numeric: tabular-nums;
+}
+
+section{
+  width: 70%;
+  max-width: 800px;
+  margin: auto;
+  & p {
+    line-height: 1.6;
+    font-size: 2rem;
+    text-align: center;
+  }
 }
